@@ -21,7 +21,7 @@ public class Robot extends IterativeRobot {
 	
 	public static DifferentialDrive DT;
 	
-	Joystick controller = new Joystick(1);
+	Joystick controller = new Joystick(0);
 	
 	@Override
 	public void robotInit() {
